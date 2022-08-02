@@ -10,22 +10,25 @@
 
     <body>
         <div id="root">
-            <header>
+            <header class="header">
                 <nav id="main-nav" class="sidebar">
+                    
                     <div class="hamburger">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
                     </div>
-                    <ul class="main-nav__list">
-                        <a href="/" class="menu__item active" onclick="route()">Home</a>
-                        <a href="/about" class="menu__item" onclick="route()">About</a>
-                        <a href="/lorem" class="menu__item" onclick="route()">Lorem</a>
-                    </ul>
+
+                    <label for="">
+                        <a href="/" class="logo"><img src="./img/bmw-logo.png" alt="bmw-logo"></a>
+                    </label>
+
+                    <!-- <ul class="main-nav__list">
+                        <li><a href="/" class="menu__item" onclick="route()">Home</a></li>
+                        <li><a href="/about" class="menu__item" onclick="route()">About</a></li>
+                        <li><a href="/lorem" class="menu__item" onclick="route()">Lorem</a></li>
+                    </ul> -->
                 </nav>
-                <label for="">
-                    <a href="/" onclick="route()" class="logo"><img src="./img/bmw-logo.png" alt="bmw-logo"></a>
-                </label>
             </header>
             <div id="main-page"></div>
         </div>
